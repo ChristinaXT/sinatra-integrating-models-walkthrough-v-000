@@ -1,5 +1,5 @@
 class TextAnalyzer
-  attr_reader :text
+  attr_reader :text, :words, :word_count
  
   def initialize(text)
     @text = text.downcase
